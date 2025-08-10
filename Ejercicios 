@@ -1,2 +1,15 @@
+#un contador para usar while
+contador = 1
+#lista vacía para llenarla posteriormente con los datos que nos de el usuario 
+lista = []
+#empezamos el ciclo con un minimo de 5 datos 
+while contador <=5:
+ compra = input(f"Escribeme tu compra {contador} ")
+  #con . append mandamos los datos a la lista vacia 
+ lista.append(compra)
+ contador += 1
+  
+print(f"la lista de los productos es {lista}")
 
-.
+
+ 
